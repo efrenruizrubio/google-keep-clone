@@ -1,4 +1,4 @@
 export interface UseToggleReturn {
-  value: boolean
-  toggle: () => void
+  value: boolean;
+  toggle: (value?: boolean) => void;
 }
